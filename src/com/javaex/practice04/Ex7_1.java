@@ -20,16 +20,17 @@ public class Ex7_1 {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("금액: ");
-		int price = sc.nextInt();
+		int won = sc.nextInt();
 		int count = 0;
-		int num = 1;
 		
 		
-		for(int i=0; i<wonArray.length;i++) {
-			if(wonArray[i]*num) > price){
-				
-			}
+		for(int i = 0; i< wonArray.length; i++) {
+			count = won/wonArray[i]; //count값 자체를 변동x 값이 나옴에 따라 값대입
+			won = won - (wonArray[i] *count); //받은 금액에서 50000원 부터 순서대로 계산한 값이 들어감 (초기금액)<<안에값이
+			System.out.println(wonArray[i] + "원: " + count + "개");
 		}
+		
+		
 		
 	}
 }

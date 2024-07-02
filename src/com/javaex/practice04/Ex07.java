@@ -19,7 +19,6 @@ public class Ex07 {
 		wonArray[8] = 5;
 		wonArray[9] = 1;
 		
-		int change = 0;
 		int count1 = 0;
 		int count2 = 0;
 		int count3 = 0;
@@ -40,32 +39,32 @@ public class Ex07 {
 			if(price >= wonArray[0]){
 				price = (price-wonArray[0]);
 				count1++;
-			}else if(price >= 10000) {
-				price = (price-10000);
+			}else if(price >= wonArray[1]) {
+				price = (price-wonArray[1]);
 				count2++;
-			}else if(price >= 5000) {
-				price = (price-5000);
+			}else if(price >= wonArray[2]) {
+				price = (price-wonArray[2]);
 				count3++;
-			}else if(price >= 1000) {
-				price = (price - 1000);
+			}else if(price >= wonArray[3]) {
+				price = (price - wonArray[3]);
 				count4++;
-			}else if(price >= 500) {
-				price = (price-500);
+			}else if(price >= wonArray[4]) {
+				price = (price-wonArray[4]);
 				count5++;
-			}else if(price >= 100) {
-				price = (price-100);
+			}else if(price >= wonArray[5]) {
+				price = (price-wonArray[5]);
 				count6++;
-			}else if(price >= 50) {
-				price = (price-50);
+			}else if(price >= wonArray[6]) {
+				price = (price-wonArray[6]);
 				count7++;
-			}else if(price >= 10) {
-				price = (price-10);
+			}else if(price >= wonArray[7]) {
+				price = (price-wonArray[7]);
 				count8++;
-			}else if(price >=5) {
-				price = (price-5);
+			}else if(price >= wonArray[8]) {
+				price = (price-wonArray[8]);
 				count9++;
-			}else if(price >=1) {
-				price = (price-1);
+			}else if(price >=wonArray[9]) {
+				price = (price-wonArray[9]);
 				count10++;
 			}else if(price == 0) {
 				break;
